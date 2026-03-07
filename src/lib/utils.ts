@@ -1,0 +1,32 @@
+export const EMPATHY_MESSAGES = [
+  "Hey. whatever happened today — it's okay. i am here whenever you want to rant xx",
+  "You're doing better than you think, love. i am here whenever you want to rant xx",
+  "That weight you're carrying? let's set it down together. i am here whenever you want to rant xx",
+  "Your feelings are so valid. every single one of them. i am here whenever you want to rant xx",
+  "It's okay to not be okay right now. i am here whenever you want to rant xx",
+  "You don't have to explain yourself to anyone. just breathe. i am here whenever you want to rant xx",
+  "Even on the hardest days, you still showed up. that's enough. i am here whenever you want to rant xx",
+  "I see you. i hear you. you matter. i am here whenever you want to rant xx",
+  "Some days just hurt, and that's okay. i am here whenever you want to rant xx",
+  "You are allowed to take up space and feel everything. i am here whenever you want to rant xx",
+  "Whatever you're going through, you don't have to face it alone. i am here whenever you want to rant xx",
+  "Healing isn't linear. be gentle with yourself today. i am here whenever you want to rant xx",
+  "Your emotions are not a burden — they're a signal. i am here whenever you want to rant xx",
+  "You've survived every hard day so far. you're stronger than you know. i am here whenever you want to rant xx",
+  "It's okay to cry. it's okay to scream into a pillow. let it out. i am here whenever you want to rant xx",
+  "You deserve rest, peace, and softness. always. i am here whenever you want to rant xx",
+  "Whatever you're holding in right now — this is a safe place to release it. i am here whenever you want to rant xx",
+  "You are not too much. you are not too little. you are exactly right. i am here whenever you want to rant xx",
+  "Even the darkest nights give way to morning. hang in there. i am here whenever you want to rant xx",
+  "No judgment. no pressure. just love. i am here whenever you want to rant xx",
+];
+
+export const HELPLINES = [
+  { name: "MANI (Nigeria)", number: "0800-123-4566", flag: "🇳🇬" },
+  { name: "Suicide & Crisis Lifeline (US)", number: "988", flag: "🇺🇸" },
+  { name: "Samaritans (UK)", number: "116 123", flag: "🇬🇧" },
+  { name: "Crisis Services Canada", number: "1-833-456-4566", flag: "🇨🇦" },
+  { name: "Lifeline Australia", number: "13 11 14", flag: "🇦🇺" },
+  { name: "iCall (India)", number: "9152987821", flag: "🇮🇳" },
+  { name: "Befrienders Worldwide", number: "befrienders.org", flag: "🌍" },
+];
