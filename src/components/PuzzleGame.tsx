@@ -393,9 +393,6 @@ export default function PuzzleGame({ onBack }: PuzzleGameProps) {
     setScreen('canvas');
   };
 
-  // ── Draw outline mask on overlay canvas ───────────────
-  // We use SVG rendered to image as a mask — simplified: mark interior via floodfill color
-  // For this implementation, we use a white-filled SVG render as the mask
   useEffect(() => {
     if (screen !== 'canvas') return;
     const overlay = overlayCanvasRef.current;
@@ -426,21 +423,8 @@ export default function PuzzleGame({ onBack }: PuzzleGameProps) {
     }
   }, [screen, subject]);
 
-  // ─── RENDER ────────────────────────────────────────────
-
   const CANVAS_W = 280;
   const CANVAS_H = 310;
-
-  // const renderSubjectSVG = () => {
-  //   const noop = (e: React.MouseEvent | React.TouchEvent) => e.preventDefault();
-  //   if (subject === 'lion') return getLionSVG(COLORS[0], noop);
-  //   if (subject === 'elephant') return getElephantSVG(COLORS[0], noop);
-  //   if (subject === 'bear') return getBearSVG(COLORS[0], noop);
-  //   if (subject === 'mandala') return getMandalaSVG(COLORS[0], noop);
-  //   if (subject === 'flower') return getFlowerSVG(COLORS[0], noop);
-  //   if (subject === 'star') return getStarSVG(COLORS[0], noop);
-  //   return null;
-  // };
 
   // ─── Screen: Category Selection ───────────────────────
   if (screen === 'category') {

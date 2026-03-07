@@ -1,7 +1,3 @@
-// ============================================================
-// stressAnalyzer.ts — Intensity-based stress scoring
-// ============================================================
-
 // Words that trigger the safety UI — should be checked BEFORE scoring
 export const CRISIS_KEYWORDS = [
   'kill', 'harm', 'end it', 'hurt myself', 'hurt me', 'suicide', 'suicidal',
@@ -14,9 +10,6 @@ export function hasCrisisKeywords(text: string): boolean {
   return CRISIS_KEYWORDS.some((kw) => lower.includes(kw));
 }
 
-// ──────────────────────────────────────────────
-// Weighted word bank: [word/phrase, weight (1–10)]
-// ──────────────────────────────────────────────
 const STRESS_WORDS: [string, number][] = [
   // Mild (1–3)
   ['okay', 1], ['fine', 1], ['meh', 1], ['whatever', 1.5],
