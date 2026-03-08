@@ -195,7 +195,7 @@ export default function BearResponse({
         className="mt-6 text-center"
       >
         <p className="text-sm text-gray-900">
-          Current Score:{" "}
+          Current Stress Score:{" "}
           <span className="font-bold text-gray-700">{stressScore}/10</span>
         </p>
         {previousScore !== null && (
